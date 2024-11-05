@@ -1,9 +1,10 @@
 // App.js
 import React, { useState, useEffect } from 'react';
-import PropertyListingForm from './components/PropertyListingForm';
+ 
 import ViewingAppointmentAlerts from './components/ViewingAppointmentAlerts';
 import LeaseAgreementGenerator from './components/LeaseAgreementGenerator';
 import MarketAnalysisReport from './components/MarketAnalysisReport';
+import PropertyListingForm from './components/PropertyListingForm';
 
 const App = () => {
   const [properties, setProperties] = useState([]);
